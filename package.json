@@ -1,0 +1,26 @@
+{
+  "name": "ojs2-digits",
+  "version": "1.0.0",
+  "description": "This is OJS 2 CSS for Indonesian Journal of Digital Innovation Studies using Mason Publishing Group Theme hosted on Jurnal Unpad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-css": "postcss digits.css > digits.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyGeniusMan/ojs2-digits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazyGeniusMan/ojs2-digits/issues"
+  },
+  "homepage": "https://github.com/LazyGeniusMan/ojs2-digits#readme",
+  "devDependencies": {
+    "cssnano": "^5.0.8",
+    "postcss-cli": "^8.3.1"
+  },
+  "private": true
+}
