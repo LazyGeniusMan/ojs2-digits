@@ -18,6 +18,12 @@
   }
 /* end fix banner margin */
 
+/* begin fix user sidebar width */
+#sidebarUser {
+    width: 100% !important;
+  }
+/* end fix user sidebar width */
+
 @media screen and (max-width: 600px) {
     /* Begin Fix sidebar mobile */
     #body {
