@@ -11,6 +11,13 @@
   }
 /* end fix navbar searchbar */
 
+/* begin fix banner margin */
+#header, #headerTitle, #headerTitle figure {
+    margin:0px;
+    padding:0px;
+  }
+/* end fix banner margin */
+
 @media screen and (max-width: 600px) {
     /* Begin Fix sidebar mobile */
     #body {

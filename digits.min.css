@@ -3,4 +3,4 @@
     Hosted on Jurnal Unpad
     OJS 2.4.8.3
     By: Andriyansyah Nurrachman
-!*/#searchbar form{display:inline-flex}@media screen and (max-width:600px){#body{display:flex;flex-flow:column-reverse}#sidebar{display:block;padding-top:25px}#rightSidebar{width:100%}}
+!*/#searchbar form{display:inline-flex}#header,#headerTitle,#headerTitle figure{margin:0;padding:0}@media screen and (max-width:600px){#body{display:flex;flex-flow:column-reverse}#sidebar{display:block;padding-top:25px}#rightSidebar{width:100%}}
