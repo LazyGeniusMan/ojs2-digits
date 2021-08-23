@@ -24,6 +24,13 @@
   }
 /* end fix user sidebar width */
 
+/* begin style sidebar block */
+.blockTitle,
+.blockSubtitle {
+  text-align: center;
+}
+/* end style sidebar block */
+
 @media screen and (max-width: 600px) {
     /* Begin Fix sidebar mobile */
     #body {
