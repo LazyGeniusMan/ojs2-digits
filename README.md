@@ -1,0 +1,1 @@
+This is OJS 2 CSS for Indonesian Journal of Digital Innovation Studies using [Mason Publishing Group Theme](https://github.com/gmulibdigital/OJS2-Theme) hosted on [Jurnal Unpad](http://jurnal.unpad.ac.id/digits/index)
