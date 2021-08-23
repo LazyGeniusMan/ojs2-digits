@@ -5,6 +5,12 @@
     By: Andriyansyah Nurrachman
 !*/
 
+/* begin fix navbar searchbar */
+#searchbar form {
+    display: inline-flex;
+  }
+/* end fix navbar searchbar */
+
 @media screen and (max-width: 600px) {
     /* Begin Fix sidebar mobile */
     #body {
