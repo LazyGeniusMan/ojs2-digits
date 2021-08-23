@@ -31,6 +31,12 @@
 }
 /* end style sidebar block */
 
+/* begin style sidebar menu button */
+#customblock-Sidebar-Menu .largeButton {
+    margin: 5px 0px 5px 0px;
+  }
+/* end style sidebar menu button */
+
 @media screen and (max-width: 600px) {
     /* Begin Fix sidebar mobile */
     #body {
