@@ -15,14 +15,509 @@
   Pitch Black   = #000000
 */
 
-/* =====NAVBAR===== */
+/* COLORS
+==================== */
+/* Mixins */
+.roundedborder,
+input,
+select,
+textarea,
+a.file {
+  border: 1px solid #07355e;
+}
+.button,
+.action,
+.toggleExtras-inactive,
+.toggleExtras-active,
+#setup .options {
+  border: 1px solid #07355e;
+  background-color: #266ba8;
+}
+.button:hover,
+.action:hover,
+.toggleExtras-inactive:hover,
+.toggleExtras-active:hover,
+#setup .options:hover,
+.button:focus,
+.action:focus,
+.toggleExtras-inactive:focus,
+.toggleExtras-active:focus,
+#setup .options:focus {
+  background-color: #3185d0;
+}
+.adminMenu ul li,
+.pseudoMenu ul li,
+#sidebar .block ul li,
+#sidebarUser ul li,
+table.listing ul li {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+/* General */
+body {
+  background-color: #dee0e1;
+}
+#container {
+  background-color: white;
+}
+
+/* Skip to Content */
+#skip-to-content {
+  color: white;
+}
+#skip-to-content:focus {
+  background: #4593ff;
+}
+
+/* Headings */
+h3 {
+  background-color: #ececed;
+}
+
+/* Links */
+a {
+  color: #0e6bbd;
+}
+a:visited {
+  color: #266ba8;
+}
+a:focus {
+  color: #07355e;
+}
+a:hover {
+  color: #1eb568;
+}
+a:active {
+  color: red;
+}
+
+nav a {
+  color: white;
+}
+nav a:visited {
+  color: white;
+}
+nav a:focus {
+  color: #1eb568;
+}
+nav a:hover {
+  color: #1eb568;
+}
+nav a:active {
+  color: #266ba8;
+}
+
+#pageFooter a {
+  color: #1eb568;
+}
+#pageFooter a:visited {
+  color: #17894f;
+}
+#pageFooter a:focus {
+  color: #266ba8;
+}
+#pageFooter a:hover {
+  color: #266ba8;
+}
+#pageFooter a:active {
+  color: #006633;
+}
+
+a.action,
+.button,
+.action,
+.toggleExtras-inactive,
+.toggleExtras-active,
+#setup .options,
+.options a {
+  color: white;
+}
+a.action:visited,
+.button:visited,
+.action:visited,
+.toggleExtras-inactive:visited,
+.toggleExtras-active:visited,
+#setup .options:visited,
+.options a:visited {
+  color: white;
+}
+a.action:focus,
+.button:focus,
+.action:focus,
+.toggleExtras-inactive:focus,
+.toggleExtras-active:focus,
+#setup .options:focus,
+.options a:focus {
+  color: white;
+}
+a.action:hover,
+.button:hover,
+.action:hover,
+.toggleExtras-inactive:hover,
+.toggleExtras-active:hover,
+#setup .options:hover,
+.options a:hover {
+  color: white;
+}
+a.action:active,
+.button:active,
+.action:active,
+.toggleExtras-inactive:active,
+.toggleExtras-active:active,
+#setup .options:active,
+.options a:active {
+  color: #ff6c3e;
+}
+
+/* Table */
+table th,
+table tr.heading {
+  background-color: #d1d3d5;
+  border-bottom: 2px solid #d1d3d5;
+}
+.table-borders tr {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+/* Global */
+.menu li {
+  border-right: 2px solid #d1d3d5;
+}
+
+.largeButton a {
+  color: white !important;
+  background-color: #07355e;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
+.largeButton a:hover,
+.largeButton a:focus {
+  background-color: #266ba8;
+}
+
+.TOC {
+  border: 1px solid #d1d3d5;
+}
+.TOC:nth-child(odd) {
+  background-color: #ececed;
+}
+
+.sort {
+  border: 1px solid #d1d3d5;
+}
+
+.heading,
+#setup .pkp_controllers_grid table th,
+#setup .pkp_controllers_grid table tr.heading {
+  background-color: #dee0e1;
+}
+
+/* Navigation */
+nav {
+  background-color: #272822;
+}
+ul.navMenu li {
+  border-right: 3px solid black;
+}
+#breadcrumb {
+  border-bottom: 3px double #d1d3d5;
+  border-top: 3px double #d1d3d5;
+}
+
+/* Sidebar */
+.blockTitle,
+#sidebar .block h3 {
+  background-color: #ececed;
+}
+.blockSubtitle {
+  border-bottom: 3px double #d1d3d5;
+}
+#sidebarRTAuthorBios .authorBio {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+/* Main */
+  /* Announcements */
+.details td {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+/* Footer */
+#pageFooter {
+  background-color: #dee0e1;
+}
+
+/* Search */
+#results table {
+  border: 1px solid #87908f;
+}
+#results table thead th,
+#results table thead tr.heading {
+  border-bottom: 1px solid #87908f;
+}
+#results table tfoot th,
+#results table tfoot tr.heading,
+#results table tfoot td {
+  border-top: 1px solid #87908f;
+}
+#results table th:first-child,
+#results table tr.heading:first-child {
+  border-right: 1px solid #87908f;
+}
+#results table tr:nth-child(odd) {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+/* Issues */
+#issues .list .issueCoverImage img {
+  border: 1px solid #d1d3d5;
+}
+
+/* Articles */
+a.file {
+  background-color: white;
+}
+#articleTitle h3 {
+  background-color: initial;
+}
+.article #main h3 {
+  background-color: initial;
+}
+.list {
+  border-bottom: 1px solid #d1d3d5;
+}
+h3.issue {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+/* Admin Pages */
+table.alt-color tbody tr:nth-child(even) {
+  background-color: #e6e7e8;
+}
+
+table.alt-color-odd tbody tr:nth-child(odd) {
+  background-color: #e6e7e8;
+}
+
+table.info .tableHeading {
+  background-color: #dee0e1;
+}
+table.info tr {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+table.listing .heading a,
+#setup .pkp_controllers_grid table.listing th a,
+#setup .pkp_controllers_grid table.listing tr.heading a {
+  color: #000;
+}
+table.listing tr {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+table.settings {
+  border: 1px solid #d1d3d5;
+}
+table.settings {
+  border: 1px solid #d1d3d5;
+}
+table.settings thead th,
+table.settings thead tr.heading {
+  border-bottom: 1px solid #d1d3d5;
+}
+table.settings tfoot th,
+table.settings tfoot tr.heading,
+table.settings tfoot td {
+  border-top: 1px solid #d1d3d5;
+}
+table.settings th:first-child,
+table.settings tr.heading:first-child {
+  border-right: 1px solid #d1d3d5;
+}
+
+table.email tr:nth-child(odd) {
+  background-color: #e6e7e8;
+}
+
+table.single {
+  border-top: 2px solid #d1d3d5;
+  border-bottom: 2px solid #d1d3d5;
+}
+
+#profile table tr {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+#systemConfiguration h4 {
+  background-color: #ececed;
+}
+#systemConfiguration table tr {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+.highlightReviewerNotNotified,
+.highlightCopyediting {
+  background-color: #266ba8;
+}
+
+.highlightNoDecision {
+  background-color: #07355e;
+  color: white;
+}
+
+.highlightReviewerConfirmationOverdue {
+  background-color: #ff6c3e;
+}
+
+.highlightRevisedCopyUploaded,
+.highlightLayoutEditing {
+  background-color: #1eb568;
+}
+
+.highlightReviewerCompletionOverdue,
+.higlightProofreading {
+  background-color: #006633;
+  color: white;
+}
+
+.highlightCopyediting a,
+.highlightLayoutEditing a,
+.highlightNoDecision a,
+.highlightReviewerCompletionOverdue a,
+.highlightRevisedCopyUploaded a,
+.highlightReviewerConfirmationOverdue a,
+.highlightReviewerNotNotified a,
+.higlightProofreading a {
+  background-color: initial;
+  border-color: initial;
+}
+
+#assignBlocksToSidebars {
+  border: 1px solid #d1d3d5;
+}
+#assignBlocksToSidebars .heading,
+#assignBlocksToSidebars #setup .pkp_controllers_grid table th,
+#setup .pkp_controllers_grid table #assignBlocksToSidebars th,
+#assignBlocksToSidebars #setup .pkp_controllers_grid table tr.heading,
+#setup .pkp_controllers_grid table #assignBlocksToSidebars tr.heading {
+  border: 1px solid #87908f;
+}
+
+#setup .pkp_controllers_grid table {
+  border: 1px solid #87908f;
+}
+#setup .pkp_controllers_grid table th,
+#setup .pkp_controllers_grid table tr.heading,
+#setup .pkp_controllers_grid table td {
+  border-right: 1px solid #d1d3d5;
+  border-bottom: 1px solid #d1d3d5;
+}
+#setup .pkp_controllers_grid table thead th,
+#setup .pkp_controllers_grid table thead tr.heading {
+  border-bottom: 1px solid #87908f;
+}
+#setup .pkp_controllers_grid table tfoot th,
+#setup .pkp_controllers_grid table tfoot tr.heading,
+#setup .pkp_controllers_grid table tfoot td {
+  border-top: 1px solid #87908f;
+}
+#setup .pkp_controllers_grid table th:first-child,
+#setup .pkp_controllers_grid table tr.heading:first-child {
+  border-right: 1px solid #87908f;
+}
+
+.pkp_controllers_grid h3 {
+  background-color: initial;
+}
+
+/* Author Submission Page */
+.pseudoMenu .current,
+#sidebar .block .current,
+#sidebarUser .current {
+  background-color: #d1d3d5;
+}
+
+/* Plugin Management */
+.pluginList ul li {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+/* Popup Window */
+.popup #header {
+  color: white;
+}
+.popup #main h3 {
+  background-color: initial;
+  font-weight: 400;
+  padding: 0;
+}
+
+/* Comment Window */
+#articleComments table {
+  border: 1px solid #d1d3d5;
+}
+#articleComments table thead th,
+#articleComments table thead tr.heading {
+  border-bottom: 1px solid #d1d3d5;
+}
+#articleComments table tfoot th,
+#articleComments table tfoot tr.heading,
+#articleComments table tfoot td {
+  border-top: 1px solid #d1d3d5;
+}
+#articleComments table th:first-child,
+#articleComments table tr.heading:first-child {
+  border-right: 1px solid #d1d3d5;
+}
+#articleComments table th,
+#articleComments table tr.heading,
+#articleComments table td {
+  border-right: 1px solid #d1d3d5;
+  border-bottom: 1px solid #d1d3d5;
+}
+
+/* User */
+#signinForm ul li {
+  border-bottom: 1px solid #d1d3d5;
+}
+
+/* Mobile */
+@media screen and (max-width: 1060px) {
+  #mobileNav a.navicon {
+    border-top: 12px double #fff;
+    border-bottom: 4px solid #fff;
+  }
+  #mobileNav .menu li {
+    border-bottom: 2px solid #87908f;
+  }
+  #mobileNav .menu li a {
+    color: white;
+  }
+  #mobileNav .menu li a:visited {
+    color: white;
+  }
+  #mobileNav .menu li a:focus {
+    color: #1eb568;
+  }
+  #mobileNav .menu li a:hover {
+    color: #1eb568;
+  }
+  #mobileNav .menu li a:active {
+    color: #266ba8;
+  }
+}
+
+/* NAVBAR
+==================== */
 /* begin fix navbar searchbar */
 #searchbar form {
   display: inline-flex;
 }
 /* end fix navbar searchbar */
 
-/* =====HEADER===== */
+/* HEADER
+==================== */
 /* begin fix banner margin */
 #header,
 #headerTitle,
@@ -32,7 +527,8 @@
 }
 /* end fix banner margin */
 
-/* =====SIDEBAR===== */
+/* SIDEBAR
+==================== */
 /* begin fix sidebar mobile */
 @media screen and (max-width: 600px) {
   #body {
