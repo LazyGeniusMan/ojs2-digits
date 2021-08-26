@@ -238,7 +238,7 @@ ul.navMenu li {
 }
 
 /* Main */
-  /* Announcements */
+/* Announcements */
 .details td {
   border-bottom: 1px solid #d1d3d5;
 }
@@ -544,6 +544,30 @@ table.single {
   }
 }
 /* end fix sidebar mobile */
+/* begin fix sidebar input and button width */
+#sidebar input:not(#remember),
+#sidebar select {
+  width: 100% !important;
+}
+#sidebarUser
+  > form:nth-child(2)
+  > table:nth-child(1)
+  > tbody:nth-child(1)
+  > tr:nth-child(1)
+  > td:nth-child(1),
+#sidebarUser
+  > form:nth-child(2)
+  > table:nth-child(1)
+  > tbody:nth-child(1)
+  > tr:nth-child(2)
+  > td:nth-child(1) {
+  display: none;
+}
+#sidebar button[onclick="window.location='https://jurnal.unpad.ac.id/digits/login/signInOauth';"]
+{
+  width: 100% !important;
+}
+/* end fix sidebar input and button width */
 /* begin style sidebar block */
 .blockTitle,
 .blockSubtitle {
