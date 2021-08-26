@@ -3,7 +3,7 @@
     Hosted on Jurnal Unpad
     OJS 2.4.8.3
     By: Andriyansyah Nurrachman
-!*/
+*/
 
 /* 
   Color Palette
@@ -15,51 +15,52 @@
   Pitch Black   = #000000
 */
 
+/* =====NAVBAR===== */
 /* begin fix navbar searchbar */
 #searchbar form {
-    display: inline-flex;
-  }
+  display: inline-flex;
+}
 /* end fix navbar searchbar */
 
+/* =====HEADER===== */
 /* begin fix banner margin */
-#header, #headerTitle, #headerTitle figure {
-    margin:0px;
-    padding:0px;
-  }
+#header,
+#headerTitle,
+#headerTitle figure {
+  margin: 0px;
+  padding: 0px;
+}
 /* end fix banner margin */
 
-/* begin fix user sidebar width */
-#sidebarUser {
-    width: 100% !important;
+/* =====SIDEBAR===== */
+/* begin fix sidebar mobile */
+@media screen and (max-width: 600px) {
+  #body {
+    display: flex;
+    flex-flow: column-reverse;
   }
-/* end fix user sidebar width */
-
+  #sidebar {
+    display: block;
+    padding-top: 25px;
+  }
+  #rightSidebar {
+    width: 100%;
+  }
+}
+/* end fix sidebar mobile */
 /* begin style sidebar block */
 .blockTitle,
 .blockSubtitle {
   text-align: center;
 }
 /* end style sidebar block */
-
 /* begin style sidebar menu button */
 #customblock-Sidebar-Menu .largeButton {
-    margin: 5px 0px 5px 0px;
-  }
+  margin: 5px 0px 5px 0px;
+}
 /* end style sidebar menu button */
-
-@media screen and (max-width: 600px) {
-    /* Begin Fix sidebar mobile */
-    #body {
-      display: flex;
-      flex-flow: column-reverse;
-    }
-    #sidebar {
-      display: block;
-      padding-top: 25px;
-    }
-    #rightSidebar {
-      width: 100%;
-    }
-    /* End Fix sidebar mobile */
-  }
-  
+/* begin fix user sidebar width */
+#sidebarUser {
+  width: 100% !important;
+}
+/* end fix user sidebar width */
