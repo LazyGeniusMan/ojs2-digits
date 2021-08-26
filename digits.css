@@ -563,8 +563,7 @@ table.single {
   > td:nth-child(1) {
   display: none;
 }
-#sidebar button[onclick="window.location='https://jurnal.unpad.ac.id/digits/login/signInOauth';"]
-{
+#sidebar button[style="width:90%;"] {
   width: 100% !important;
 }
 /* end fix sidebar input and button width */
