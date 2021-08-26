@@ -11,7 +11,7 @@
   Gray          = #EEEDED
   Green         = #0C7236
   Dark Blue     = #023642
-  Black         = #0A2432
+  #000000         = #0A2432
   Pitch Black   = #000000
 */
 
@@ -58,12 +58,12 @@ body {
   background-color: #dee0e1;
 }
 #container {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 /* Skip to Content */
 #skip-to-content {
-  color: white;
+  color: #ffffff;
 }
 #skip-to-content:focus {
   background: #4593ff;
@@ -88,14 +88,14 @@ a:hover {
   color: #1eb568;
 }
 a:active {
-  color: red;
+  color: #ff0000;
 }
 
 nav a {
-  color: white;
+  color: #ffffff;
 }
 nav a:visited {
-  color: white;
+  color: #ffffff;
 }
 nav a:focus {
   color: #1eb568;
@@ -130,7 +130,7 @@ a.action,
 .toggleExtras-active,
 #setup .options,
 .options a {
-  color: white;
+  color: #ffffff;
 }
 a.action:visited,
 .button:visited,
@@ -139,7 +139,7 @@ a.action:visited,
 .toggleExtras-active:visited,
 #setup .options:visited,
 .options a:visited {
-  color: white;
+  color: #ffffff;
 }
 a.action:focus,
 .button:focus,
@@ -148,7 +148,7 @@ a.action:focus,
 .toggleExtras-active:focus,
 #setup .options:focus,
 .options a:focus {
-  color: white;
+  color: #ffffff;
 }
 a.action:hover,
 .button:hover,
@@ -157,7 +157,7 @@ a.action:hover,
 .toggleExtras-active:hover,
 #setup .options:hover,
 .options a:hover {
-  color: white;
+  color: #ffffff;
 }
 a.action:active,
 .button:active,
@@ -185,7 +185,7 @@ table tr.heading {
 }
 
 .largeButton a {
-  color: white !important;
+  color: #ffffff !important;
   background-color: #07355e;
   -moz-box-shadow: 0px 0px 5px #333333;
   -webkit-box-shadow: 0px 0px 5px #333333;
@@ -218,7 +218,7 @@ nav {
   background-color: #272822;
 }
 ul.navMenu li {
-  border-right: 3px solid black;
+  border-right: 3px solid #000000;
 }
 #breadcrumb {
   border-bottom: 3px double #d1d3d5;
@@ -276,7 +276,7 @@ ul.navMenu li {
 
 /* Articles */
 a.file {
-  background-color: white;
+  background-color: #ffffff;
 }
 #articleTitle h3 {
   background-color: initial;
@@ -310,7 +310,7 @@ table.info tr {
 table.listing .heading a,
 #setup .pkp_controllers_grid table.listing th a,
 #setup .pkp_controllers_grid table.listing tr.heading a {
-  color: #000;
+  color: #000000;
 }
 table.listing tr {
   border-bottom: 1px solid #d1d3d5;
@@ -363,7 +363,7 @@ table.single {
 
 .highlightNoDecision {
   background-color: #07355e;
-  color: white;
+  color: #ffffff;
 }
 
 .highlightReviewerConfirmationOverdue {
@@ -378,7 +378,7 @@ table.single {
 .highlightReviewerCompletionOverdue,
 .higlightProofreading {
   background-color: #006633;
-  color: white;
+  color: #ffffff;
 }
 
 .highlightCopyediting a,
@@ -445,7 +445,7 @@ table.single {
 
 /* Popup Window */
 .popup #header {
-  color: white;
+  color: #ffffff;
 }
 .popup #main h3 {
   background-color: initial;
@@ -485,17 +485,17 @@ table.single {
 /* Mobile */
 @media screen and (max-width: 1060px) {
   #mobileNav a.navicon {
-    border-top: 12px double #fff;
-    border-bottom: 4px solid #fff;
+    border-top: 12px double #ffffff;
+    border-bottom: 4px solid #ffffff;
   }
   #mobileNav .menu li {
     border-bottom: 2px solid #87908f;
   }
   #mobileNav .menu li a {
-    color: white;
+    color: #ffffff;
   }
   #mobileNav .menu li a:visited {
-    color: white;
+    color: #ffffff;
   }
   #mobileNav .menu li a:focus {
     color: #1eb568;
