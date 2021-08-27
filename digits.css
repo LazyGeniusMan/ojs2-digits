@@ -568,6 +568,12 @@ nav li#userHome a::before {
   display: inline-block;
   padding-right: 5px;
 }
+nav li#announcements a::before {
+  font-family: FontAwesome;
+  content: "\f0a1";
+  display: inline-block;
+  padding-right: 5px;
+}
 nav li#navItem-0 a::before {
   /* Current Issue */
   font-family: FontAwesome;
@@ -579,13 +585,6 @@ nav li#navItem-1 a::before {
   /* Archives Issue */
   font-family: FontAwesome;
   content: "\f187";
-  display: inline-block;
-  padding-right: 5px;
-}
-nav li#navItem-2 a::before {
-  /* Annoucements Issue */
-  font-family: FontAwesome;
-  content: "\f0a1";
   display: inline-block;
   padding-right: 5px;
 }
