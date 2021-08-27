@@ -593,6 +593,11 @@ nav li#navItem-2 a::before {
 
 /* HEADER
 ==================== */
+/* begin remove skip to content*/
+#skip-to-content{
+  display: none;
+}
+/* end remove skip to content*/
 /* begin fix banner margin */
 #header,
 #headerTitle,
