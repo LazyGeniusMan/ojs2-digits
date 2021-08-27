@@ -516,8 +516,10 @@ table.single {
 /* begin remove unnecessary navbar item */
 nav li#categories,
 nav li#search,
-nav li#archives {
-  display: none;
+nav li#archives,
+nav li#submitButton,
+nav li#current {
+  display: none !important;
 }
 /* end remove unnecessary navbar item */
 
