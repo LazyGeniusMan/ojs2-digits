@@ -594,7 +594,7 @@ nav li#navItem-2 a::before {
 /* HEADER
 ==================== */
 /* begin remove skip to content*/
-#skip-to-content{
+#skip-to-content {
   display: none;
 }
 /* end remove skip to content*/
@@ -663,3 +663,12 @@ nav li#navItem-2 a::before {
   width: 100% !important;
 }
 /* end fix user sidebar width */
+
+/* MAIN
+==================== */
+/* begin fix TinyMCE & textareawidth */
+table.mceLayout,
+textarea {
+  width: 100% !important;
+}
+/* end fix TinyMCE width */
