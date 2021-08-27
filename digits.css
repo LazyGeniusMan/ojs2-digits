@@ -522,6 +522,59 @@ nav li#current {
   display: none !important;
 }
 /* end remove unnecessary navbar item */
+/* begin add icon to navbar */
+nav li#home a::before {
+  font-family: FontAwesome;
+  content: "\f015";
+  display: inline-block;
+  padding-right: 5px;
+}
+nav li#about a::before {
+  font-family: FontAwesome;
+  content: "\f129";
+  display: inline-block;
+  padding-right: 5px;
+}
+nav li#login a::before {
+  font-family: FontAwesome;
+  content: "\f090";
+  display: inline-block;
+  padding-right: 5px;
+}
+nav li#register a::before {
+  font-family: FontAwesome;
+  content: "\f234";
+  display: inline-block;
+  padding-right: 5px;
+}
+nav li#userHome a::before {
+  font-family: FontAwesome;
+  content: "\f007";
+  display: inline-block;
+  padding-right: 5px;
+}
+nav li#navItem-0 a::before {
+  /* Current Issue */
+  font-family: FontAwesome;
+  content: "\f1ea";
+  display: inline-block;
+  padding-right: 5px;
+}
+nav li#navItem-1 a::before {
+  /* Archives Issue */
+  font-family: FontAwesome;
+  content: "\f187";
+  display: inline-block;
+  padding-right: 5px;
+}
+nav li#navItem-2 a::before {
+  /* Annoucements Issue */
+  font-family: FontAwesome;
+  content: "\f0a1";
+  display: inline-block;
+  padding-right: 5px;
+}
+/* end add icon to navbar */
 
 /* HEADER
 ==================== */
