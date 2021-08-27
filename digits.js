@@ -7,3 +7,7 @@ window.onload = function () {
       doc.body.innerHTML + "<style>body{font-size:1em;}</style>";
   }
 };
+
+// Remove whitespace between login and PAus buttin
+var el = document.querySelector("#sidebarUser");
+el.innerHTML = el.innerHTML.replace(/&nbsp;/g, "");

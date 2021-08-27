@@ -509,7 +509,9 @@ table.single {
 /* GLOBAL
 ==================== */
 /* begin increase desktop content width*/
-#body, #navbar, #headerTitle figure{
+#body,
+#navbar,
+#headerTitle figure {
   max-width: 1200px;
 }
 /* end increase desktop content max width*/
@@ -670,6 +672,11 @@ nav li#navItem-1 a::before {
   width: 100% !important;
 }
 /* end fix user sidebar width */
+/* begin remove user sidebar whitespace */
+#sidebarUser > br {
+  display: none;
+}
+/* end remove user sidebar whitespace */
 /* begin fix languange selector margin */
 #sidebarLanguageToggle .button,
 #sidebarLanguageToggle select {
