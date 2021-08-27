@@ -513,6 +513,11 @@ table.single {
   display: inline-flex;
 }
 /* end fix navbar searchbar */
+/* begin hide categories */
+li#categories {
+  display: none;
+}
+/* end hide categories */
 
 /* HEADER
 ==================== */
