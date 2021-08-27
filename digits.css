@@ -688,6 +688,14 @@ nav li#navItem-1 a::before {
   margin: 0.5em 0em 0.5em 0em;
 }
 /* end fix languange selector margin */
+/* begin remove submit a proposal button */
+#submit-button {
+  display: none;
+}
+#customblock-Sidebar-Menu {
+  margin-top: 0px;
+}
+/* end remove submit a proposal button */
 
 /* MAIN
 ==================== */
