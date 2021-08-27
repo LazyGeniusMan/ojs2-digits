@@ -615,6 +615,11 @@ nav li#navItem-1 a::before {
   padding: 0px;
 }
 /* end fix banner margin */
+/* begin fix mobile banner spacing */
+#header {
+  min-height: auto;
+}
+/* end fix mobile banner spacing */
 
 /* SIDEBAR
 ==================== */
