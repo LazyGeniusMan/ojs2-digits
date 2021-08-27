@@ -506,6 +506,14 @@ table.single {
   }
 }
 
+/* GLOBAL
+==================== */
+/* begin increase desktop content width*/
+#body, #navbar, #headerTitle figure{
+  max-width: 1200px;
+}
+/* end increase desktop content max width*/
+
 /* NAVBAR
 ==================== */
 /* begin sticky navbar */
