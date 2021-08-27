@@ -512,6 +512,7 @@ table.single {
 nav {
   padding: 0px;
   position: fixed;
+  z-index: 999;
 }
 #fullNav,
 #mobileNav {
