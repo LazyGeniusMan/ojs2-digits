@@ -663,6 +663,12 @@ nav li#navItem-2 a::before {
   width: 100% !important;
 }
 /* end fix user sidebar width */
+/* begin fix languange selector margin */
+#sidebarLanguageToggle .button,
+#sidebarLanguageToggle select {
+  margin: 0.5em 0em 0.5em 0em;
+}
+/* end fix languange selector margin */
 
 /* MAIN
 ==================== */
