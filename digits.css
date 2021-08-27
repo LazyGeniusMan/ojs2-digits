@@ -513,11 +513,13 @@ table.single {
   display: inline-flex;
 }
 /* end fix navbar searchbar */
-/* begin hide categories */
-li#categories {
+/* begin remove unnecessary navbar item */
+nav li#categories,
+nav li#search,
+nav li#archives {
   display: none;
 }
-/* end hide categories */
+/* end remove unnecessary navbar item */
 
 /* HEADER
 ==================== */
