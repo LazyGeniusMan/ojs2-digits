@@ -617,6 +617,9 @@ nav li#navItem-1 a::before {
   margin: 0px;
   padding: 0px;
 }
+#headerTitle figure img {
+  padding: 0 10px;
+}
 /* end fix banner margin */
 /* begin fix mobile banner spacing */
 #header {
