@@ -666,6 +666,9 @@ nav li#navItem-1 a::before {
 #sidebar button[style="width:90%;"] {
   width: 100% !important;
 }
+#sidebarUser td{
+  padding: .5em 0em;
+}
 /* end fix sidebar input and button width */
 /* begin style sidebar block */
 .blockTitle,
