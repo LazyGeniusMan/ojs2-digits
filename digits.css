@@ -515,6 +515,13 @@ table.single {
   max-width: 1200px;
 }
 /* end increase desktop content max width*/
+/* begin fix select element size */
+select{
+  line-height: 1.5em !important;
+  font-size: 1em !important;
+  padding: 5px 0;
+}
+/* end fix select element size */
 
 /* NAVBAR
 ==================== */
