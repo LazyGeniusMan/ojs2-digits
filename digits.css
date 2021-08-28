@@ -608,6 +608,11 @@ nav li#navItem-1 a::before {
 #headerTitle figure img {
   padding: 0 10px;
 }
+@media screen and (max-width: 1200px) {
+  #headerTitle figure img {
+    padding: 0;
+  }
+}
 /* end fix banner margin */
 /* begin fix mobile banner spacing */
 #header {
