@@ -515,8 +515,20 @@ table.single {
   max-width: 1200px;
 }
 /* end increase desktop content max width*/
+/* begin fix mobile and tablet horizontal padding */
+@media screen and (max-width: 600px) {
+  #body {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  #body {
+    padding: 0 10px;
+  }
+}
+/* end fix mobile and tablet horizontal padding */
 /* begin fix select element size */
-select{
+select {
   line-height: 1.5em !important;
   font-size: 1em !important;
   padding: 5px 0;
@@ -666,8 +678,8 @@ nav li#navItem-1 a::before {
 #sidebar button[style="width:90%;"] {
   width: 100% !important;
 }
-#sidebarUser td{
-  padding: .5em 0em;
+#sidebarUser td {
+  padding: 0.5em 0em;
 }
 /* end fix sidebar input and button width */
 /* begin style sidebar block */
