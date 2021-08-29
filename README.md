@@ -1,4 +1,4 @@
-This is OJS 2 CSS for Indonesian Journal of Digital Innovation Studies using [Mason Publishing Group Theme](https://github.com/gmulibdigital/OJS2-Theme) hosted on [Jurnal Unpad](http://jurnal.unpad.ac.id/digits/index)
+This is OJS 2 CSS for Indonesian Journal of Digital Innovation Studies using [Mason Publishing Group Theme](https://github.com/gmulibdigital/OJS2-Theme) hosted on [Jurnal Unpad](https://jurnal.unpad.ac.id/digits/index)
 
 ## Notes
 - [Color Palette](https://coolors.co/0a2432-023642-0c7236-439334-eeeded-000000)
