@@ -726,11 +726,20 @@ nav li#navItem-1 a::before {
   width: 75%;
 }
 @media screen and (max-width: 600px) {
-  #main{
+  #main {
     width: 100%;
   }
 }
 /* end increase desktop and tablet main section width */
+/* begin fix mobile overflow */
+@media screen and (max-width: 600px) {
+  #main select,
+  #main input:not(input[type="radio"]) {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+/* end fix mobile overflow */
 /* begin fix TinyMCE & textareawidth */
 table.mceLayout,
 textarea {
