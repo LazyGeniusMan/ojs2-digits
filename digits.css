@@ -53,6 +53,14 @@ table.listing ul li {
   border-bottom: 1px solid #d1d3d5;
 }
 
+/* jQueryUI */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background: #266ba8 url(images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{
+	background: #3185d0 url(images/ui-bg_glass_75_d0e5f5_1x400.png) 50% 50% repeat-x;	
+}
+
 /* General */
 body {
   background-color: #dee0e1;
