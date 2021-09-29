@@ -731,7 +731,7 @@ nav li#navItem-1 a::before {
 /* begin increase desktop and tablet main section width */
 #main {
   margin-right: 0;
-  width: 75%;
+  width: 70%;
 }
 @media screen and (max-width: 600px) {
   #main {
